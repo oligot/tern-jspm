@@ -24,6 +24,12 @@ Add the plugin to the tern configuration file _.tern-project_
 Relaunch your editor.
 You should now be able to jump to your modules and dependencies with ease :smirk:
 
+### Atom
+
+Note that this plugin only works when launching Atom from the project directory.
+If you lauch it from the start menu, this will not work.
+
+
 ## Credits
 
 Credits goes to the NFL team for their great work on [jspm-resolve](https://github.com/nfl/jspm-resolve).
