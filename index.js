@@ -13,6 +13,9 @@ function resolve(name, parentFile) {
     name = path.resolve(path.dirname(parentFile), name);
   }
   var resolved = loader.normalizeSync(name).replace("file://", "");
+  if (process.platform === 'win32') {
+    resolved = resolved.replace(/^\//, '');
+  }
   if (resolved) {
     try {
       if (fs.statSync(resolved).isDirectory()) {
