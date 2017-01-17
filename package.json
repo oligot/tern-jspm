@@ -1,6 +1,6 @@
 {
   "name": "tern-jspm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tern plugin to support the Jspm package manager",
   "main": "index.js",
   "scripts": {
