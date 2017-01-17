@@ -4,7 +4,7 @@
   "description": "Tern plugin to support the Jspm package manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "author": "Olivier Ligot <oligot@gmail.com>",
   "license": "MIT",
